@@ -40,7 +40,7 @@
 /* === SCSS Compass Functions === */
 
 :root {
-  --color-change: rgb(17, 104, 175);
+  --color-change: rgb(135, 201, 255);
 }
 
 @-webkit-keyframes flash {

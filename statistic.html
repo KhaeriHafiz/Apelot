@@ -111,13 +111,13 @@
                             <span class="menu-title">Dashboard</span>
                         </a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item active">
                         <a class="nav-link" href="list-sensor.html">
                             <span class="icon-bg"><i class="mdi mdi-format-float-none menu-icon"></i></span>
                             <span class="menu-title">List Sensor</span>
                         </a>
                     </li>
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a class="nav-link" href="profile.html">
                             <span class="icon-bg"><i class="mdi mdi-format-float-none menu-icon"></i></span>
                             <span class="menu-title">Profile</span>
@@ -140,120 +140,122 @@
                 <div class="content-wrapper">
                     <i id="bannerClose"></i>
 
-                    <!-- profile -->
-                    <div class="container emp-profile card-ed">
-                        <form method="post">
-                            <div class="row">
-                                <div class="col-md-4">
-                                    <div class="profile-img">
-                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS52y5aInsxSm31CvHOFHWujqUx_wWTS9iM6s7BAm21oEN_RiGoog"
-                                            alt="" />
-                                        <!-- <div class="file btn btn-lg btn-primary">
-                                            Change Photo
-                                            <input type="file" name="file" />
-                                        </div> -->
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="profile-head">
-                                        <h5>
-                                            Kshiti Ghelani
-                                        </h5>
-                                        <ul class="nav nav-tabs mt-5" id="myTab" role="tablist">
-                                            <li class="nav-item">
-                                                <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home"
-                                                    role="tab" aria-controls="home" aria-selected="true">About</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-md-2">
-                                    <!-- <input type="submit" class="profile-edit-btn" name="btnAddMore" value="Edit Profile"
-                                        data-toggle="profile" data-target="#profileModal" /> -->
-                                    <button type="button" class="btn btn-outline-secondary btn-rounded btn-fw ml-auto"
-                                        data-toggle="modal" data-target="#profileModal">Edit Profile</button>
+                    <!-- stat -->
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="card card-ed">
+                                <div class="card-body">
+                                    <h2>Statistic Data</h2>
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="col-md-4">
-                                    <!-- <div class="profile-work">
-                                        <p>WORK LINK</p>
-                                        <a href="">Website Link</a><br />
-                                        <a href="">Bootsnipp Profile</a><br />
-                                        <a href="">Bootply Profile</a>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card card-ed">
+                                <div class="card-body">
+                                    <h4>Text</h4>
+                                    <section class="pi-mar">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="milet">
+                                                    <center>
+                                                        <div class="pieID pie">
 
-                                    </div> -->
-                                </div>
-                                <div class="col-md-8">
-                                    <div class="tab-content profile-tab" id="myTabContent">
-                                        <div class="tab-pane fade show active" id="home" role="tabpanel"
-                                            aria-labelledby="home-tab">
-                                            <div class="row">
-                                                <div class="col-md-6">
-                                                    <label>User Id</label>
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <p>Kshiti123</p>
+                                                        </div>
+                                                    </center>
                                                 </div>
                                             </div>
-                                            <div class="row">
-                                                <div class="col-md-6">
-                                                    <label>Name</label>
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <p>Kshiti Ghelani</p>
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-md-6">
-                                                    <label>Email</label>
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <p>kshitighelani@gmail.com</p>
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-md-6">
-                                                    <label>Phone</label>
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <p>123 456 7890</p>
+                                            <div class="col-md-6">
+                                                <div class="milet">
+                                                    <center>
+                                                        <ul class="pieID legend">
+                                                            <li>
+                                                                <em>PC</em>
+                                                                <span>1145</span>
+                                                            </li>
+                                                            <li>
+                                                                <em>Esp 32</em>
+                                                                <span>718</span>
+                                                            </li>
+                                                            <li>
+                                                                <em>Arduino</em>
+                                                                <span>531</span>
+                                                            </li>
+
+                                                            <li>
+                                                                <em>Esp 8266</em>
+                                                                <span>344</span>
+                                                            </li>
+                                                            <li>
+                                                                <em>Raspberry Pi</em>
+                                                                <span>868</span>
+                                                            </li>
+                                                        </ul>
+                                                    </center>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </section>
                                 </div>
                             </div>
-                        </form>
-
+                        </div>
                     </div>
-                    <!-- profile end -->
-                    <div class="container">
-                        <div class="card card-ed">
-                            <div class="card-body">
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <h4>Change Banner</h4>
 
-                                        <div class="input-group">
-                                            <div class="custom-file">
-                                                <input type="file" class="custom-file-input" id="inputGroupFile04"
-                                                    aria-describedby="inputGroupFileAddon04">
-                                                <label class="custom-file-label" for="inputGroupFile04">Choose
-                                                    file</label>
-                                            </div>
-                                            <div class="input-group-append">
-                                                <button class="btn btn-outline-primary" type="button"
-                                                    id="inputGroupFileAddon04">Upload</button>
-                                            </div>
-                                        </div>
-                                        <span>Recomendation with image have 1160 x 450 pixel resolution.</span>
+                    <!-- bar Chart -->
+                    <div class="row" style="margin-top:10px;">
+                        <div class="col-12">
+                            <div class="card card-ed">
+                                <div class="card-body">
+                                    <h4 class="m-0">Device</h4>
+                                    <canvas id="myChart" class="chart-my"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- bar Chart end -->
+
+                    <div class="row mt-3">
+                        <div class="col-lg-12 grid-margin stretch-card">
+                            <div class="card card-ed">
+                                <div class="card-body">
+                                    <h4 class="card-title">Striped Table</h4>
+                                    </p>
+                                    <div class="table-responsive">
+                                        <table class="table table-striped">
+                                            <thead>
+                                                <tr>
+                                                    <th> User </th>
+                                                    <th> First name </th>
+                                                    <th> Progress </th>
+                                                    <th> Amount </th>
+                                                    <th> Deadline </th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        1
+                                                    </td>
+                                                    <td> Herman Beck </td>
+                                                    <td>
+                                                        <div class="progress">
+                                                            <div class="progress-bar bg-success" role="progressbar"
+                                                                style="width: 25%" aria-valuenow="25" aria-valuemin="0"
+                                                                aria-valuemax="100"></div>
+                                                        </div>
+                                                    </td>
+                                                    <td> $ 77.99 </td>
+                                                    <td> May 15, 2015 </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
+
+                    <!-- stat end -->
 
 
                 </div>
@@ -279,10 +281,55 @@
     <!-- endinject -->
     <!-- Custom js for this page -->
     <script src="assets/js/dashboard.js"></script>
-    <script src="assets/js/chart.js"></script>
+    <!-- <script src="assets/js/chart.js"></script> -->
     <script src="assets/js/circliful.js"></script>
+    <script src="assets/js/pie-chart.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bs-custom-file-input/dist/bs-custom-file-input.js"></script>
+
+    <script>
+        const ctx = document.getElementById('myChart').getContext('2d');
+        const myChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+                datasets: [{
+                    label: 'Suhu',
+                    data: [12, 19, 3, 5, 2, 3, 5, 10, 12, 3, 2, 7],
+                    backgroundColor: [
+                        '#f5e44e',
+                    ],
+                },
+                {
+                    label: 'Data 2',
+                    data: [22, 11, 13, 35, 22, 43, 65, 20, 14, 15, 10, 17],
+                    backgroundColor: [
+                        '#db4b23',
+                    ],
+                },
+                {
+                    label: 'Data 3',
+                    data: [32, 21, 3, 15, 32, 23, 15, 30, 4, 25, 18, 47],
+                    backgroundColor: [
+                        '#2c23db',
+                    ],
+                }]
+            },
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                    },
+                    x: {
+                        grid: {
+                            display: false,
+                        }
+                    }
+                }
+            }
+
+        });
+    </script>
+
     <script>
         $(document).ready(function () { // 6,32 5,38 2,34
             $("#circle-1").circliful({
@@ -325,11 +372,6 @@
                 foregroundColor: "#2c23db",
             });
         });
-
-        // for image input
-        $(document).ready(function () {
-            bsCustomFileInput.init()
-        })
     </script>
 
     <script>
@@ -486,38 +528,6 @@
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                     <button type="button" class="btn btn-primary">Save</button>
                 </div> -->
-            </div>
-        </div>
-    </div>
-
-    <!-- Modal profile -->
-    <div class="modal fade" id="profileModal" tabindex="-1" aria-labelledby="profileModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title text-blask" id="profileModalLabel">Edit Profile</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <form>
-                        <div class="form-group">
-                            <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Full Name">
-                        </div>
-                        <div class="form-group">
-                            <input type="email" class="form-control" id="exampleInputUsername1" placeholder="Email">
-                        </div>
-                        <div class="form-group">
-                            <input type="text" class="form-control" id="exampleInputUsername1"
-                                placeholder="Phone Number">
-                        </div>
-                    </form>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
-                </div>
             </div>
         </div>
     </div>
