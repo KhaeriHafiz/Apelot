@@ -141,18 +141,31 @@
                     <i id="bannerClose"></i>
 
                     <!-- profile -->
-                    <div class="container emp-profile card-ed"
-                        style="width:100%; background-image: url('./assets/images/apeiot/banner.jpg')">
+                    <div class="container emp-profile card-ed">
                         <form method="post">
                             <div class="row">
                                 <div class="col-md-4">
-                                    <div class="profile-img">
+                                    <!-- <div class="profile-img">
                                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS52y5aInsxSm31CvHOFHWujqUx_wWTS9iM6s7BAm21oEN_RiGoog"
                                             alt="" />
-                                        <!-- <div class="file btn btn-lg btn-primary">
+                                        <div class="file btn btn-lg btn-primary">
                                             Change Photo
                                             <input type="file" name="file" />
-                                        </div> -->
+                                        </div>
+                                    </div> -->
+                                    <div class="card"> <img class="card-img-top" src="./assets/images/apeiot/banner.jpg"
+                                            alt="Card image cap">
+                                        <div class="card-body little-profile text-center">
+                                            <div class="pro-img"><img
+                                                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS52y5aInsxSm31CvHOFHWujqUx_wWTS9iM6s7BAm21oEN_RiGoog"
+                                                    alt="user">
+                                            </div>
+                                            <h3 class="m-b-0 h3">Brad Macullam</h3>
+                                            <!-- <p>Web Designer &amp; Developer</p> <a href="javascript:void(0)"
+                                                class="m-t-10 waves-effect waves-dark btn btn-primary btn-md btn-rounded"
+                                                data-abc="true">Follow</a> -->
+
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
@@ -170,28 +183,6 @@
                                             </ul>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-md-2">
-                                    <div class="bg-w">
-                                        <!-- <input type="submit" class="profile-edit-btn" name="btnAddMore" value="Edit Profile"
-                                        data-toggle="profile" data-target="#profileModal" /> -->
-                                        <button type="button"
-                                            class="btn btn-outline-secondary btn-rounded btn-fw ml-auto"
-                                            data-toggle="modal" data-target="#profileModal">Edit Profile</button>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-4">
-                                    <!-- <div class="profile-work">
-                                        <p>WORK LINK</p>
-                                        <a href="">Website Link</a><br />
-                                        <a href="">Bootsnipp Profile</a><br />
-                                        <a href="">Bootply Profile</a>
-
-                                    </div> -->
-                                </div>
-                                <div class="col-md-8 bg-w">
                                     <div class="tab-content profile-tab" id="myTabContent">
                                         <div class="tab-pane fade show active" id="home" role="tabpanel"
                                             aria-labelledby="home-tab">
@@ -201,14 +192,6 @@
                                                 </div>
                                                 <div class="col-md-6">
                                                     <p>Kshiti123</p>
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-md-6">
-                                                    <label>Name</label>
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <p>Kshiti Ghelani</p>
                                                 </div>
                                             </div>
                                             <div class="row">
@@ -230,7 +213,17 @@
                                         </div>
                                     </div>
                                 </div>
+                                <div class="col-md-2">
+                                    <div class="bg-w">
+                                        <!-- <input type="submit" class="profile-edit-btn" name="btnAddMore" value="Edit Profile"
+                                        data-toggle="profile" data-target="#profileModal" /> -->
+                                        <button type="button"
+                                            class="btn btn-outline-secondary btn-rounded btn-fw ml-auto"
+                                            data-toggle="modal" data-target="#profileModal">Edit Profile</button>
+                                    </div>
+                                </div>
                             </div>
+
                         </form>
 
                     </div>
@@ -518,6 +511,19 @@
                         <div class="form-group">
                             <input type="text" class="form-control" id="exampleInputUsername1"
                                 placeholder="Phone Number">
+                        </div>
+                        <div class="input-group">
+
+                            <div class="custom-file">
+                                <input type="file" class="custom-file-input" id="inputGroupFile04"
+                                    aria-describedby="inputGroupFileAddon04">
+                                <label class="custom-file-label" for="inputGroupFile04">Choose
+                                    Photo Profile</label>
+                            </div>
+                            <div class="input-group-append">
+                                <button class="btn btn-outline-primary" type="button"
+                                    id="inputGroupFileAddon04">Upload</button>
+                            </div>
                         </div>
                     </form>
                 </div>
