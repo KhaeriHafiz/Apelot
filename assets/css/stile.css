@@ -257,12 +257,20 @@ a:hover {
   margin-bottom: 20px;
 }
 
-.little-profile .pro-img img {
+.little-profile .pro-img .img {
   width: 128px;
   height: 128px;
   -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
   border-radius: 100%;
+}
+
+.img {
+  margin-left: auto;
+  margin-right: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 html body .m-b-0 {
